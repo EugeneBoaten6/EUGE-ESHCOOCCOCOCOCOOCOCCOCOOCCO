@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Thanksgiving!</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background: #fff8e6;
+      text-align: center;
+    }
+
+    .thanksgiving-card {
+      background: #f7d7a8;
+      margin: 40px auto;
+      padding: 30px;
+      max-width: 600px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      color: #b3541e;
+      font-size: 2.5rem;
+    }
+
+    p {
+      color: #5a3f1b;
+      font-size: 1.2rem;
+    }
+
+    .leaf {
+      font-size: 40px;
+      animation: float 3s infinite ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="thanksgiving-card">
+    <div class="leaf">🍁</div>
+    <h1>Happy Thanksgiving, Guests!</h1>
+    <p>We’re grateful for your visit today.  
+    Wishing you joy, warmth, good food, and great memories!</p>
+    <div class="leaf">🍂</div>
+  </div>
+</body>
+</html>
